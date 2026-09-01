@@ -71,5 +71,14 @@ public class MenuActivity extends AppCompatActivity {
         });
 
 
+        ((Button)findViewById(R.id.mapBtn)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(ctx, MapActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 }
