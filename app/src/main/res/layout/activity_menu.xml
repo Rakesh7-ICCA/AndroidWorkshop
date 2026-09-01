@@ -63,4 +63,14 @@
         android:text="Map"
         android:layout_gravity="center_horizontal"
         />
+
+    <Button
+        android:id="@+id/notif"
+        android:layout_width="wrap_content"
+        android:textSize="32sp"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_marginVertical="32dp"
+        android:layout_gravity="center_horizontal"
+        />
 </LinearLayout>

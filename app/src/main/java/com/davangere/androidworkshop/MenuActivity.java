@@ -80,5 +80,14 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
+        ((Button)findViewById(R.id.notif)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(ctx, NotificationActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 }
