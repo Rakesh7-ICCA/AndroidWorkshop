@@ -61,5 +61,15 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
+        ((Button)findViewById(R.id.cam)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(ctx, CameraActivity.class);
+                startActivity(i);
+            }
+        });
+
+
     }
 }
